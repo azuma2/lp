@@ -1,0 +1,98 @@
+
+
+header{
+
+  margin-left:50px;
+  margin-top:20px;
+}
+
+.logo {
+  width: 10% ;
+  height: 10% ;
+}
+
+.head {
+  position: relative;
+  color: #a5a5a5;
+  display: flex;
+  justify-content: space-between;
+
+}
+.head2 {
+  padding: 10px;
+  margin: 10px;
+
+}
+
+ul{
+   display: flex;
+    list-style: none;
+}
+
+
+.gazou1{
+  position: absolute;
+  width: 60% ;
+  height: 60% ;
+  left:500px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+#midasi {
+  position: absolute;
+  left:250px;
+  top:100px;
+}
+
+.midasi2{
+  font-size: 48px;
+  color: 	#AC1361;
+  line-height:2;
+  font-family: 'Permanent Marker', cursive;
+}
+.midasi3{
+  font-weight: bold;
+    color: 	#AC1361;
+      line-height:2;
+}
+.midasi4{
+  color: #a5a5a5;
+  line-height:1;
+}
+
+#sintyaku{
+  position: relative;
+  margin:  auto;
+	text-align: center;
+  	display: block;
+
+  top:550px;
+}
+.sintyaku2{
+  	text-align: left;
+    display: inline-block;
+
+}
+
+
+
+
+
+
+
+
+.sikaku {
+  width: 800px;
+  height: 150px;
+  top: 320px;
+  background: #00008b;
+  position: relative;
+
+}
+
+
+
+
