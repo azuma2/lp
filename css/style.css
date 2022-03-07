@@ -66,7 +66,7 @@ ul{
 #sintyaku{
   position: relative;
   margin:  auto;
-	text-align: center;
+	  width: 50% ;
   	display: block;
 
   top:550px;
@@ -74,9 +74,17 @@ ul{
 .sintyaku2{
   	text-align: left;
     display: inline-block;
-
+    color: 	#AC1361;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 12px;
 }
 
+.sintyaku4[
+  color: #a5a5a5;
+  padding: 10px;
+  margin: 10px;
+
+]
 
 
 
