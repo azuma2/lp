@@ -54,7 +54,7 @@ ul{
   font-family: 'Permanent Marker', cursive;
 }
 .midasi3{
-  font-weight: bold;
+  font-weight: bolder;
     color: 	#AC1361;
       line-height:2;
 }
@@ -79,12 +79,17 @@ ul{
     font-size: 12px;
 }
 
-.sintyaku4[
-  color: #a5a5a5;
-  padding: 10px;
-  margin: 10px;
+.sintyaku3{
+    font-weight: bold;
 
-]
+}
+
+.sintyaku4{
+  color: #a5a5a5;
+  line-height: 500%
+
+
+}
 
 
 
