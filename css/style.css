@@ -346,16 +346,27 @@ display: inline;
 
 }
 
+.blogbox{
+    position: relative;
+  	text-align: center;
+  	display: flex; 
+}
 
 .aicon{
     position: absolute;
   color: #ffffff;
+  background: 	#AC1361;
+  padding: 5px;
+    border-radius: 20px  0px 0px ;
+  top: 5px;
+  left: 5px;
 }
 
 
 .blog10{
    z-index: 100;
        position: absolute;
+               padding: 5px;
 }
 
 
@@ -382,11 +393,52 @@ display: inline;
 }
 
 
+.blog20{
+   z-index: 100;
+       position: absolute;
+               padding: 5px;
+                  flex: 1;
+}
 
 
+.blog21{
+  background: 	#ffffff;
+        z-index: 100;
+        margin:0;
+}
 
 
+.bgazou2{
+  width: 250px ;
+  height: 170px ;
+  position: relative;
+  border-radius: 20px 20px 0px 0px;
+}
 
+.blog30{
+   z-index: 100;
+       position: absolute;
+               padding: 5px;
+}
+
+
+.blog31{
+  background: 	#ffffff;
+        z-index: 100;
+        margin:0;
+}
+
+
+.bgazou3{
+  width: 250px ;
+  height: 170px ;
+  position: relative;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.itiran{
+
+}
 
 
 
