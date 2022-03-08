@@ -77,6 +77,7 @@ ul{
     color: 	#AC1361;
     font-family: 'Permanent Marker', cursive;
     font-size: 12px;
+    line-height:2;
 }
 
 .sintyaku3{
@@ -86,26 +87,322 @@ ul{
 
 .sintyaku4{
   color: #a5a5a5;
-  line-height: 500%
-
+  line-height: 500%;
+  border-bottom: solid 1px gray;
 
 }
 
+.waku{
+  border-bottom: solid 3px gray;
+  border-top: solid 3px gray;
+}
 
+#news{
+    position: absolute;
+  margin:  auto;
+	  width: 90% ;
+  	display: block;
 
+  top:750px;
+  width: 100px;
+  height: 30px;
+  background:  #AC1361;
+  border-radius: 30px;
+}
+.pink{
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
 
+#about{
+    position: relative;
+    margin:  auto;
+	  width: 50% ;
+  	display: block;
+    	text-align: center;
+  top:650px;
+  z-index: 100;
+}
 
+.about2{
+  font-size: 12px;
+  color: 	#AC1361;
+  font-family: 'Permanent Marker', cursive;
+  z-index: 100;
+}
 
+.about3{
+    font-size: 30px;
+    font-weight: bolder;
+    line-height:3;
 
-.sikaku {
-  width: 800px;
-  height: 150px;
-  top: 320px;
-  background: #00008b;
+}
+
+.about4{
+  text-align: left;
+  display: inline-block;
+  	  width: 100% ;
+
+}
+
+.gazou2{
+  position: absolute;
+  width: 60% ;
+  height: 80% ;
+  left:450px;
+    top:100px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.sikaku{
+
+  height: 400px;
+    top: 400px;
+  background: 	#F5F5F5;
   position: relative;
+  z-index: 1;
+}
+
+#service{
+    position: relative;
+    margin:  auto;
+	  width: 50% ;
+  	display: block;
+
+  top:500px;
+  z-index: 100;
+}
+
+.service2{
+  	text-align: left;
+    display: inline-block;
+    color: 	#AC1361;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 12px;
+}
+
+.service3{
+  font-weight: bold;
+    line-height:2;
+
+}
+
+.service10{
+    position: absolute;
+   	display: block;
+    text-align: center;
+    left:50px;
+      z-index: 100;
+}
+
+.service11{
+    font-weight: bold;
+    line-height:2;
+
+}
+
+.service12{
+    text-align: left;
+    display: inline-block;
+}
+
+
+.sgazou1{
+
+  width: 20% ;
+  height: 20% ;
+  left:50px;
+}
+
+.service20{
+    position: absolute;
+   	display: block;
+    text-align: center;
+    left:850px;
+    z-index: 100;
+}
+
+.service21{
+    font-weight: bold;
+    line-height:2;
+
+}
+
+.service22{
+    text-align: left;
+    display: inline-block;
+}
+
+
+.sgazou2{
+
+  width: 20% ;
+  height: 20% ;
+  left:50px;
+}
+
+
+
+#blog{
+    position: relative;
+    margin:  auto;
+	  width: 50% ;
+  	display: block;
+
+  top:800px;
+  z-index: 100;
+}
+
+.blog2{
+  	text-align: left;
+    display: inline-block;
+    color: 	#AC1361;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 12px;
+      z-index: 100;
+}
+
+.blog3{
+  font-weight: bold;
+    line-height:2;
+      z-index: 100;
+
+}
+
+.blog10{
+   z-index: 100;
+       position: absolute;
+}
+
+
+.blog11{
+        z-index: 100;
+}
+
+
+.bgazou1{
+  width: 38% ;
+  height: 38% ;
+  
+  border-radius: 20px 20px 0px 0px;
+}
+
+.bwaku1{
+    background: 	#ffffff;
+      width: 250px;
+  height: 150px;
+    position: absolute;
+          z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+.sikaku2{
+
+  height: 400px;
+    top: 500px;
+  background: 	#F5F5F5;
+  position: relative;
+  z-index: 1;
+}
+
+
+#company{
+    position: relative;
+    margin:  auto;
+	  width: 50% ;
+  	display: block;
+
+  top:600px;
+  z-index: 100;
+}
+
+.company1{
+  	text-align: left;
+    display: inline-block;
+    color: 	#AC1361;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 12px;
+      z-index: 100;
+}
+
+.company2{
+  font-weight: bold;
+    line-height:2;
+      z-index: 100;
 
 }
 
 
 
 
+table{
+      text-align: left;
+  border:2px black solid; 　
+}
+th,td{
+    	text-align: left;
+  border:1px black solid;
+  padding:10px ;
+}
+
+#saiyou{
+    position: relative;
+
+
+  	    display: inline-block; 
+
+  top:700px;
+  z-index: 100;
+}
+
+.saiyou1{
+      display: inline-block; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    position: relative;
+    margin:  auto;
+
+  	display: block;
+    	text-align: center;
+}
+
+
+.ligosaigo{
+    z-index: 100;
+    position: absolute;
+}
+
+.haikeisaigo{
+    height: 50px;
+  background: 	#F5F5F5;
+  position: relative;
+  z-index: 1;
+}
