@@ -204,8 +204,8 @@ ul{
  
       z-index: 100;
     display: grid;
-    grid-template-rows: 300px 100px;
-    grid-template-columns: 6fr 6fr ;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 500px 500px ;
 }
 
 
@@ -238,12 +238,14 @@ ul{
   grid-column: 2/3;
   grid-row: 1/2;
   background: #B35B8B;
-      display: inline-block;
+  display: flex;
 
 }
 
 
-
+.service21a{
+display: inline;
+}
 
 
 
@@ -251,6 +253,7 @@ ul{
     color: #ffffff;
     font-weight: bold;
     line-height:2;
+
 }
 
 .service22{
@@ -260,16 +263,20 @@ ul{
 }
 
 .service30{
+    text-align: left;
     padding: 40px;
   grid-column: 2/3;
   grid-row: 2/3;
   background: 	#B2889E;
-
+    display: flex;
   
 }
 
+.service31a{
+  display: inline;
+}
+
 .service31{
-    text-align: left;
     color: #ffffff;
     font-weight: bold;
     line-height:2;
@@ -278,7 +285,6 @@ ul{
 .service32{
     color: #ffffff;
     text-align: left;
-    display: inline-block;
 }
 
 
@@ -289,29 +295,23 @@ ul{
 }
 
 .sgazou2{
-  display: inline-block;
-  width: 20% ;
-  height: 20% ;
+    padding: 20px;
+   display: flex;
+  width: 40% ;
+  height: 80% ;
   left:50px;
 }
 
 .sgazou3{
-
-  width: 20% ;
-  height: 20% ;
+      padding: 20px;
+   display: flex;
+  width: 40% ;
+  height: 80% ;
   left:50px;
 }
 
 
 
-
-
-.sgazou2{
-
-  width: 20% ;
-  height: 20% ;
-  left:50px;
-}
 
 
 
@@ -348,7 +348,9 @@ ul{
 
 
 .blog11{
+  background: 	#ffffff;
         z-index: 100;
+        margin:0;
 }
 
 
@@ -359,7 +361,7 @@ ul{
   border-radius: 20px 20px 0px 0px;
 }
 
-.bwaku1{
+.bwak{
     background: 	#ffffff;
       width: 250px;
   height: 150px;
@@ -392,7 +394,7 @@ ul{
     margin:  auto;
 	  width: 50% ;
   	display: block;
-
+  	text-align: center;
   top:600px;
   z-index: 100;
 }
@@ -427,19 +429,43 @@ th,td{
 }
 
 #saiyou{
-    position: relative;
+    
+  position: relative;
 
-
-  	    display: inline-block; 
+  	display: flex; 
 
   top:700px;
   z-index: 100;
 }
 
-.saiyou1{
-      display: inline-block; 
+.saiyou1a{
+  width: 120% ;
+  height: 120% ;
+  position: relative;
 }
 
+.saiyou1b{
+  width: 120% ;
+  height: 120% ;
+  position: relative;
+}
+
+.saiyou2{
+
+  position: absolute;
+  color: #ffffff;
+  font-weight: bold;
+  top: 50%;
+  left: 25%;
+}
+
+.saiyou3{
+  position: absolute;
+  color: #ffffff;
+  font-weight: bold;
+  top: 50%;
+  left: 75%;
+}
 
 
 
