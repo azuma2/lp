@@ -323,10 +323,11 @@ display: inline;
     text-align: center;
   top:600px;
   z-index: 100;
+
 }
 
 .blog2a{
-
+	  width: 50% ;
 }
 
 .blog2{
@@ -370,6 +371,7 @@ display: inline;
     position: relative;
                padding: 5px;
                margin: 10px 20px;
+                 	text-align: left;
 }
 
 
@@ -401,6 +403,7 @@ display: inline;
     position: relative;
                padding: 5px;
 margin: 10px 20px;
+  	text-align: left;
 }
 
 
@@ -424,6 +427,7 @@ margin: 10px 20px;
     position: relative;
                padding: 5px;
                margin: 10px 20px;
+                 	text-align: left;
 }
 
 
@@ -450,16 +454,19 @@ margin: 10px 20px;
       border-radius: 30px;
      margin : 30px ;
       z-index: 500;
-  display: flex
-  position: absolute;
+    width: 100px ;
+      justify-content:  center;
+      	text-align: center;
+     position: relative;
   top:10px;
+  left:50%;
 }
 
 
 .sikaku2{
 
   height: 600px;
-    top: 250px;
+    top: 100px;
   background: 	#F5F5F5;
   position: relative;
   z-index: 1;
@@ -472,7 +479,7 @@ margin: 10px 20px;
 	  width: 50% ;
   	display: block;
   	text-align: center;
-  top:600px;
+  top:200px;
   z-index: 100;
 }
 
@@ -503,7 +510,16 @@ table{
     align-items: center;
 
 }
-th,td{
+th{
+  background-color:#DEEFFF;
+     	text-align: left;
+  border:1px black solid;
+  padding:10px ;
+     width: 200px;
+}
+
+td{
+    width: 300px;
     	text-align: left;
   border:1px black solid;
   padding:10px ;
@@ -515,7 +531,7 @@ th,td{
 
   	display: flex; 
 
-  top:700px;
+  top:300px;
   z-index: 100;
 }
 
@@ -552,20 +568,68 @@ th,td{
 
 
 
+#saigo{
+    position: relative;
+        	text-align: center;
+            top:20px;
+
+}
+
+.saigo1{
+      	text-align: center;
+}
+
+.saigosen{
+   background: 	#AC1361;
+     width: 2px;
+height: 40px;
+  left: 50%;
+    top: 10px;
+    position: relative;
+
+}
+.saigo2a{
+  display: flex;
+         	text-align: center;
+}
+
+.saigo2{
+  
+ left:40%;
+    position: relative;
+      color: #ffffff;
+  width: 200px;
+  height: 30px;
+  background: linear-gradient(#ff34ff, #8646ff);
+  border-radius: 80px;
+     margin : 30px ;
+      z-index: 500;
+        padding: 30px;
+          box-shadow: 1px 10px 3px #B2889E;
+            z-index: 1;
+
+}
 
 
 
 
+.saigazou{
+  top:110px;
+   left:45%;
+    position: absolute;
+  width: 30px;
+height: 30px;
+  z-index: 2000;
+}
 
-
-
-
-
+.push {
+  height: 200px;
+}
 
 footer{
-    position: relative;
-    margin:  auto;
 
+    margin:  auto;
+  bottom: 0;
   	display: block;
     	text-align: center;
 }
@@ -585,10 +649,3 @@ display: flex;
 
 
 
-
-.haikeisaig{
-    height: 50px;
-  background: 	#F5F5F5;
-  position: relative;
-  z-index: 1;
-}
