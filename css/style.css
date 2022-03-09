@@ -1,4 +1,6 @@
-
+body{
+ 
+}
 
 header{
 
@@ -12,7 +14,6 @@ header{
 }
 
 .head {
-  position: relative;
   color: #a5a5a5;
   display: flex;
   justify-content: space-between;
@@ -64,12 +65,14 @@ ul{
 }
 
 #sintyaku{
-  position: relative;
+
   margin:  auto;
 	  width: 50% ;
   	display: block;
+    padding-top: 700px;
+    padding-left: 300px;
 
-  top:550px;
+
 }
 .sintyaku2{
   	text-align: left;
@@ -108,7 +111,7 @@ ul{
 }
 
 .news2{
-    position: relative;
+
       color: #ffffff;
   width: 100px;
   height: 30px;
@@ -129,7 +132,7 @@ ul{
 	  width: 50% ;
   	display: block;
     	text-align: center;
-  top:650px;
+  top:150px;
   z-index: 100;
 }
 
@@ -168,20 +171,20 @@ ul{
 .sikaku{
 
   height: 400px;
-    top: 400px;
+    top: -100px;
   background: 	#F5F5F5;
   position: relative;
   z-index: 1;
 }
 
 #service{
-    position: relative;
     margin:  auto;
 	  width: 50% ;
   	display: block;
 
   top:500px;
   z-index: 100;
+  max-width: 900px;
 }
 
 .service2{
@@ -316,13 +319,15 @@ display: inline;
 
 
 #blog{
-    position: relative;
     margin:  auto;
 	  width: 100% ;
     display: inline-block;
     text-align: center;
-  top:600px;
   z-index: 100;
+    max-width: 900px;
+    left:30%;
+      padding-top: 200px;
+        padding-left: 250px;
 
 }
 
@@ -457,7 +462,7 @@ margin: 10px 20px;
     width: 100px ;
       justify-content:  center;
       	text-align: center;
-     position: relative;
+
   top:10px;
   left:50%;
 }
@@ -466,7 +471,7 @@ margin: 10px 20px;
 .sikaku2{
 
   height: 600px;
-    top: 100px;
+     top: -500px;
   background: 	#F5F5F5;
   position: relative;
   z-index: 1;
@@ -481,6 +486,7 @@ margin: 10px 20px;
   	text-align: center;
   top:200px;
   z-index: 100;
+    max-width: 900px;
 }
 
 .company1{
@@ -528,9 +534,9 @@ td{
 #saiyou{
     
   position: relative;
-
+ width:1500px;
   	display: flex; 
-
+  max-width: 1500px;
   top:300px;
   z-index: 100;
 }
@@ -554,6 +560,7 @@ td{
   font-weight: bold;
   top: 50%;
   left: 20%;
+
 }
 
 .saiyou3{
@@ -561,7 +568,8 @@ td{
   color: #ffffff;
   font-weight: bold;
   top: 50%;
-  left: 70%;
+
+
 }
 
 
@@ -572,6 +580,7 @@ td{
     position: relative;
         	text-align: center;
             top:20px;
+            width:980px;
 
 }
 
@@ -627,7 +636,7 @@ height: 30px;
 }
 
 footer{
-
+ width:1500px;
     margin:  auto;
   bottom: 0;
   	display: block;
