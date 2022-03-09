@@ -70,7 +70,7 @@ ul{
 	  width: 50% ;
   	display: block;
     padding-top: 700px;
-    padding-left: 300px;
+
 
 
 }
@@ -101,9 +101,7 @@ ul{
 }
 
 #news{
-    position: relative;
-  margin:  auto;
-	  width: 90% ;
+
   	display:  inline-block;
 
   
@@ -180,11 +178,8 @@ ul{
 #service{
     margin:  auto;
 	  width: 50% ;
-  	display: block;
 
-  top:500px;
-  z-index: 100;
-  max-width: 900px;
+
 }
 
 .service2{
@@ -461,7 +456,7 @@ margin: 10px 20px;
 
     width: 100px ;
 
-  margin-left: 600px;
+  margin-left: 50%;
 
 }
 
@@ -623,7 +618,7 @@ height: 30px;
 }
 
 footer{
- width:1500px;
+
     margin:  auto;
   bottom: 0;
   	display: block;
