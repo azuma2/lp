@@ -516,12 +516,15 @@ td{
   padding:10px ;
 }
 
+
+
+
 #saiyou{
     
   position: relative;
- width:1500px;
+
   	display: flex; 
-  max-width: 1500px;
+
   top:300px;
   z-index: 100;
 }
@@ -553,6 +556,11 @@ td{
   color: #ffffff;
   font-weight: bold;
   top: 50%;
+  left: 70%;
+
+}
+
+.shusei{
 
 
 }
