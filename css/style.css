@@ -531,55 +531,70 @@ width: 100%;
 }
 
 .saiyou1a{
-  width: 100% ;
+ width: 100% ;
   height: 100% ;
   position: relative;
+
 }
 
 .saiyou1b{
-  width: 100% ;
+ width: 100% ;
   height: 100% ;
   position: relative;
+ 
 }
 
 .saiyou2{
-
+   left:25%;
   position: absolute;
   color: #ffffff;
   font-weight: bold;
   top: 50%;
-  left: 20%;
-
+  	display: block;
+    	text-align: center;
 }
 
 .saiyou3{
   position: absolute;
   color: #ffffff;
   font-weight: bold;
+    	display: block;
   top: 50%;
-  left: 70%;
-
+  left: 40%;
+   	text-align: center;
 }
 
-.shusei{
-
-
+.shusei1{
+    position: relative;
+ width: 50% ;
+  height: 100% ;
+   	text-align: center;
 }
 
-
+.shusei2{
+    position: relative;
+     	text-align: center;
+ width: 50% ;
+  height: 100% ;
+}
 
 
 
 #saigo{
 
+width: 100%;
         	text-align: center;
-   position: relative;
+
+     	display: block;
 
 }
 
 .saigo1{
       	text-align: center;
         padding: 10px;
+          	display: flex;
+         	text-align: center;
+           justify-content: center
 }
 
 .saigosen{
@@ -589,14 +604,16 @@ height: 40px;
   margin-left: 50%;
 }
 .saigo2a{
-  display: flex;
+  width: 100%;
+  	display: flex;
          	text-align: center;
+           justify-content: center
+
 }
 
 .saigo2{
-  
- left:40%;
-    position: relative;
+    	display: block;
+
       color: #ffffff;
   width: 200px;
 
@@ -607,20 +624,31 @@ height: 40px;
         padding: 30px;
           box-shadow: 1px 10px 3px #B2889E;
             z-index: 1;
+            
 
 }
 
+.saigo2::before{
+    content: "";
+ background: url(../img/mailicon.svg);
+     display: inline-block;
+margin-left: -34px;
 
 
-
-.saigazou{
-  top:130px;
-   left:45%;
-    position: absolute;
   width: 30px;
 height: 30px;
   z-index: 2000;
+
 }
+
+
+.shusei3{
+ width: 100%;
+  	display: block;
+         	text-align: center;
+
+}
+
 
 .push {
   height: 200px;
